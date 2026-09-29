@@ -3,15 +3,15 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Shop Lister – Personal shop management tool</title>
-  <meta name="description" content="Shop Lister is a personal tool built by Emin Yuksel, an independent developer and seller in Turkey, to manage a personal online shop through the official Etsy API.">
+  <title>Shop Helper – Managing listings in my own Etsy shop</title>
+  <meta name="description" content="Shop Helper is a personal tool for managing listings in Emin Yüksel's own Etsy shop, using only the official Etsy Open API v3.">
   <meta name="color-scheme" content="light dark">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="site-header">
     <div class="container">
-      <a class="site-title" href="index.html">Shop Lister</a>
+      <a class="site-title" href="index.html">Shop Helper</a>
       <nav class="site-nav" aria-label="Main">
         <ul>
           <li><a href="index.html" aria-current="page">Home</a></li>
@@ -23,54 +23,56 @@
 
   <main>
     <div class="container">
-      <h1>Shop Lister</h1>
-      <p class="lead">A small, personal tool for managing my own shop.</p>
+      <h1>Shop Helper</h1>
+      <p class="lead">A personal tool for managing listings in my own Etsy shop.</p>
 
       <section aria-labelledby="about">
         <h2 id="about">About me</h2>
         <p>
-          I'm Emin Yuksel, an individual developer and seller based in Turkey.
-          I run a small shop on Etsy and build my own tools to help me
-          look after it.
+          I'm Emin Yüksel, an individual seller based in Ankara, Turkey.
+          I built Shop Helper to manage my own shop.
         </p>
       </section>
 
       <section aria-labelledby="what">
-        <h2 id="what">What the app does</h2>
-        <p>
-          Shop Lister is a personal tool I use to manage my own Etsy shop.
-          It connects only through the official Etsy API.
-        </p>
+        <h2 id="what">What Shop Helper does</h2>
+        <p>Shop Helper works only with my own Etsy shop. It:</p>
         <ul>
-          <li>
-            <strong>Market research:</strong> it reads public listing and
-            shop data so I can understand pricing, trends, and what buyers
-            are looking for.
-          </li>
-          <li>
-            <strong>Managing my own listings:</strong> once I authorize it
-            for my shop, it will create and update listings in my own shop.
-          </li>
+          <li>creates draft listings in my shop;</li>
+          <li>uploads listing images and digital files;</li>
+          <li>updates or deactivates my own listings;</li>
+          <li>reads my own shop's listings to keep them in sync.</li>
         </ul>
       </section>
 
+      <section aria-labelledby="how">
+        <h2 id="how">How it works</h2>
+        <p>
+          Shop Helper creates new listings as drafts. I review every listing
+          before it's published.
+        </p>
+      </section>
+
       <div class="note" role="note">
-        <p><strong>What this app is not</strong></p>
+        <p><strong>What Shop Helper doesn't do</strong></p>
         <ul>
-          <li>It is not a public or commercial service.</li>
-          <li>It is not offered to other sellers and does not act on anyone else's shop.</li>
-          <li>It uses only the official Etsy API and no other method of accessing Etsy.</li>
+          <li>It doesn't access other shops' data.</li>
+          <li>It doesn't read orders or buyer information.</li>
+          <li>It doesn't collect data from Etsy's website pages.</li>
+          <li>It isn't offered to or used by anyone else.</li>
         </ul>
+        <p>It uses only the official Etsy Open API v3.</p>
       </div>
 
       <section aria-labelledby="contact">
         <h2 id="contact">Contact</h2>
-        <p>If you have questions about this app, please get in touch.</p>
+        <p>If you have questions about Shop Helper, please get in touch.</p>
         <dl class="contact-list">
           <dt>Email</dt>
           <dd><a href="mailto:eminyuksel97@gmail.com">eminyuksel97@gmail.com</a></dd>
           <dt>My shop</dt>
-          <dd><a href="[https://www.etsy.com/shop/YourShopName]">[https://www.etsy.com/shop/YourShopName]</a></dd>
+          <!-- PLACEHOLDER: replace SHOPNAME (in both the link and its text) with the real shop name once the shop opens. -->
+          <dd><a href="https://www.etsy.com/shop/SHOPNAME">https://www.etsy.com/shop/SHOPNAME</a></dd>
         </dl>
         <p>See the <a href="privacy.html">Privacy Policy</a> for how data is handled.</p>
       </section>
@@ -79,7 +81,7 @@
 
   <footer class="site-footer">
     <div class="container">
-      <p>&copy; 2026 Emin Yuksel · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:eminyuksel97@gmail.com">Contact</a></p>
+      <p>&copy; 2026 Emin Yüksel · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:eminyuksel97@gmail.com">Contact</a></p>
       <p>The term 'Etsy' is a trademark of Etsy, Inc. This application uses the Etsy API but is not endorsed or certified by Etsy, Inc.</p>
     </div>
   </footer>

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Authorization finished – Shop Helper</title>
+  <meta name="robots" content="noindex">
+  <meta name="referrer" content="no-referrer">
+  <meta name="color-scheme" content="light dark">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="site-title" href="index.html">Shop Helper</a>
+      <nav class="site-nav" aria-label="Main">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="privacy.html">Privacy Policy</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="container">
+      <h1>Etsy authorization finished</h1>
+      <p class="lead">One more step to connect Shop Helper to the shop.</p>
+
+      <ol>
+        <li>Copy the full URL from the browser's address bar.</li>
+        <li>Paste it into the Shop Helper command-line tool.</li>
+      </ol>
+      <p>Shop Helper reads the authorization code from the URL.</p>
+
+      <div class="note" role="note">
+        <p>
+          The code in this URL expires within minutes, and it is useless
+          without the secret verifier kept on my computer.
+        </p>
+      </div>
+
+      <p class="meta">
+        If the URL contains <code>error=</code> instead of <code>code=</code>,
+        authorization didn't complete. Start again from Shop Helper.
+      </p>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; 2026 Emin Yüksel · <a href="privacy.html">Privacy Policy</a> · <a href="mailto:eminyuksel97@gmail.com">Contact</a></p>
+      <p>The term 'Etsy' is a trademark of Etsy, Inc. This application uses the Etsy API but is not endorsed or certified by Etsy, Inc.</p>
+    </div>
+  </footer>
+</body>
+</html>

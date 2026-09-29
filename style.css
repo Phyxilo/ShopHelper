@@ -149,11 +149,13 @@ h3 {
 }
 
 p,
-ul {
+ul,
+ol {
   margin: 0 0 1rem;
 }
 
-ul {
+ul,
+ol {
   padding-left: 1.25rem;
 }
 
@@ -169,6 +171,11 @@ li + li {
 .meta {
   color: var(--muted);
   font-size: 0.95rem;
+}
+
+code {
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  font-size: 0.9em;
 }
 
 .note {
